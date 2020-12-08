@@ -1,0 +1,33 @@
+#!/usr/bin/env python3
+#list of dog names
+dogs = ("mike", "larry", "harry")
+
+#list of cat names
+cats = ("scooter", "peater", "julio")
+print(dogs)
+#append cats into dogs for single list
+dogs.append(cats)
+print "dogs[0]":, dogs[0]
+print "cats[1]":, cats[1]
+
+###this is what i did by myself###
+
+##this is what we went through in class##
+
+dogs = ["mark", "twain", "spot"]
+
+cats = ["mike", "snowball", "sully"]
+print(dogs)
+
+dogs.append(cats)
+print(dogs)
+
+print(dogs[0])
+
+print(dogs[3][1])
+
+catdog = {"firstdog": dogs[0], "second cat": dogs[3][1]]}
+
+print(catdog)
+
+print (catdog['firstdog'], catdog['second cat'])
